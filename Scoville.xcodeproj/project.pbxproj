@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66168D8C1FA58E82007A7067 /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66168D8B1FA58E82007A7067 /* HomepageViewController.swift */; };
+		66168D8E1FA59124007A7067 /* SetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66168D8D1FA59124007A7067 /* SetUpViewController.swift */; };
 		668295221F94759300B7A1F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668295211F94759300B7A1F4 /* AppDelegate.swift */; };
 		668295241F94759300B7A1F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668295231F94759300B7A1F4 /* ViewController.swift */; };
 		668295271F94759300B7A1F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668295251F94759300B7A1F4 /* Main.storyboard */; };
@@ -15,10 +17,13 @@
 		6682952F1F94759300B7A1F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6682952D1F94759300B7A1F4 /* LaunchScreen.storyboard */; };
 		66DA3D081F948490004E51FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DA3D071F948490004E51FA /* LoginViewController.swift */; };
 		66DA3D0A1F9484A6004E51FA /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DA3D091F9484A6004E51FA /* RegisterViewController.swift */; };
+		66FC115B1FA68A50005EE960 /* CreateChildProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FC115A1FA68A50005EE960 /* CreateChildProfileViewController.swift */; };
 		B6114F50F5B8840BCBEEAC93 /* Pods_Scoville.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8319975FFE353601FC5C6964 /* Pods_Scoville.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66168D8B1FA58E82007A7067 /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
+		66168D8D1FA59124007A7067 /* SetUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpViewController.swift; sourceTree = "<group>"; };
 		6682951E1F94759300B7A1F4 /* Scoville.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scoville.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		668295211F94759300B7A1F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		668295231F94759300B7A1F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +35,7 @@
 		668295361F9476C200B7A1F4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		66DA3D071F948490004E51FA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		66DA3D091F9484A6004E51FA /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		66FC115A1FA68A50005EE960 /* CreateChildProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChildProfileViewController.swift; sourceTree = "<group>"; };
 		8319975FFE353601FC5C6964 /* Pods_Scoville.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scoville.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85839A3A961F7160A7C1FBC /* Pods-Scoville.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scoville.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scoville/Pods-Scoville.debug.xcconfig"; sourceTree = "<group>"; };
 		D056C8539AE4E4930C64F90B /* Pods-Scoville.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scoville.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scoville/Pods-Scoville.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +100,9 @@
 			children = (
 				66DA3D071F948490004E51FA /* LoginViewController.swift */,
 				66DA3D091F9484A6004E51FA /* RegisterViewController.swift */,
+				66168D8B1FA58E82007A7067 /* HomepageViewController.swift */,
+				66168D8D1FA59124007A7067 /* SetUpViewController.swift */,
+				66FC115A1FA68A50005EE960 /* CreateChildProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -245,7 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				66DA3D081F948490004E51FA /* LoginViewController.swift in Sources */,
+				66FC115B1FA68A50005EE960 /* CreateChildProfileViewController.swift in Sources */,
 				66DA3D0A1F9484A6004E51FA /* RegisterViewController.swift in Sources */,
+				66168D8E1FA59124007A7067 /* SetUpViewController.swift in Sources */,
+				66168D8C1FA58E82007A7067 /* HomepageViewController.swift in Sources */,
 				668295241F94759300B7A1F4 /* ViewController.swift in Sources */,
 				668295221F94759300B7A1F4 /* AppDelegate.swift in Sources */,
 				6682952A1F94759300B7A1F4 /* Scoville.xcdatamodeld in Sources */,

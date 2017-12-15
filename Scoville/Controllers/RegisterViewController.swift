@@ -14,8 +14,11 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var txtName: UITextField!
     @IBOutlet weak var txtEmail: UITextField!
     @IBOutlet weak var txtPassword: UITextField!
+    @IBOutlet weak var txtConfirmPassword: UITextField!
     @IBOutlet weak var txtPhone: UITextField!
     @IBOutlet weak var btnRegister: UIButton!
+    @IBOutlet weak var btnPrivacyTerms: UIButton!
+    @IBOutlet weak var btnPasswordReqs: UIButton!
     @IBOutlet weak var container: UIView!
     
         @IBAction func btnRegister(_ sender: Any) {
@@ -42,6 +45,10 @@ class RegisterViewController: UIViewController {
             }
             }
     }
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        txtEmail.resignFirstResponder()
+        txtPassword.resignFirstResponder()
     }
     }
     
