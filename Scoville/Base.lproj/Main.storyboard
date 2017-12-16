@@ -484,7 +484,7 @@
                                 <rect key="frame" x="140" y="142" width="94" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="40"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJu-DF-W6f">
@@ -518,13 +518,27 @@
                     <view key="view" contentMode="scaleToFill" id="jPq-j2-WvY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Azy-7M-1iv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Azy-7M-1iv" firstAttribute="leading" secondItem="jPq-j2-WvY" secondAttribute="leading" id="1ej-DG-ZDx"/>
+                            <constraint firstItem="Azy-7M-1iv" firstAttribute="bottom" secondItem="2HO-U5-Nil" secondAttribute="bottom" id="Uro-jw-McM"/>
+                            <constraint firstAttribute="trailing" secondItem="Azy-7M-1iv" secondAttribute="trailing" id="epp-LU-Uqf"/>
+                            <constraint firstItem="Azy-7M-1iv" firstAttribute="top" secondItem="jPq-j2-WvY" secondAttribute="top" id="nOB-XJ-LpT"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="2HO-U5-Nil"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="Azy-7M-1iv" id="rM7-QF-SVE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LAX-M4-Bwt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1622" y="1978"/>
+            <point key="canvasLocation" x="1621.5999999999999" y="1977.6611694152925"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="D7t-pB-aXK">
