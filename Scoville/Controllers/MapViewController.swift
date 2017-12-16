@@ -1,35 +1,15 @@
 //
-//  HomepageViewController.swift
+//  MapViewController.swift
 //  Scoville
 //
-//  Created by Adam Kouhel on 10/28/17.
+//  Created by Adam Kouhel on 12/15/17.
 //  Copyright © 2017 AdamKouhel. All rights reserved.
 //
 
 import UIKit
 
-class HomepageViewController: UIViewController {
+class MapViewController: UIViewController {
 
-    @IBOutlet weak var btnViewChildProfile: UIButton!
-    @IBOutlet weak var btnCreateChildProfile: UIButton!
-    @IBOutlet weak var btnSetTimer: UIButton!
-    @IBOutlet weak var btnViewLocation: UIButton!
-    
-    
-    @IBAction func btnViewChildProfile(_ sender: Any) {
-    }
-    
-    @IBAction func btnCreateChildProfile(_ sender: Any) {
-    }
-    
-    @IBAction func btnSetTimer(_ sender: Any) {
-    }
-    
-    @IBAction func btnViewLocation(_ sender: Any) {
-    }
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 

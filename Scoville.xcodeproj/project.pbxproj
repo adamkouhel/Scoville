@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		66168D8C1FA58E82007A7067 /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66168D8B1FA58E82007A7067 /* HomepageViewController.swift */; };
-		66168D8E1FA59124007A7067 /* SetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66168D8D1FA59124007A7067 /* SetUpViewController.swift */; };
+		66423CCC1FE4B8B40039BF05 /* ChildProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66423CCB1FE4B8B40039BF05 /* ChildProfileTableViewController.swift */; };
+		66423CCE1FE4B8D10039BF05 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66423CCD1FE4B8D10039BF05 /* TimerViewController.swift */; };
+		66423CD01FE4B8FB0039BF05 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66423CCF1FE4B8FB0039BF05 /* MapViewController.swift */; };
 		668295221F94759300B7A1F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668295211F94759300B7A1F4 /* AppDelegate.swift */; };
 		668295241F94759300B7A1F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668295231F94759300B7A1F4 /* ViewController.swift */; };
 		668295271F94759300B7A1F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668295251F94759300B7A1F4 /* Main.storyboard */; };
@@ -23,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		66168D8B1FA58E82007A7067 /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
-		66168D8D1FA59124007A7067 /* SetUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpViewController.swift; sourceTree = "<group>"; };
+		66423CCB1FE4B8B40039BF05 /* ChildProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildProfileTableViewController.swift; sourceTree = "<group>"; };
+		66423CCD1FE4B8D10039BF05 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		66423CCF1FE4B8FB0039BF05 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		6682951E1F94759300B7A1F4 /* Scoville.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scoville.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		668295211F94759300B7A1F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		668295231F94759300B7A1F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				66DA3D061F948458004E51FA /* Controllers */,
-				668295361F9476C200B7A1F4 /* GoogleService-Info.plist */,
 				668295211F94759300B7A1F4 /* AppDelegate.swift */,
 				668295231F94759300B7A1F4 /* ViewController.swift */,
 				668295251F94759300B7A1F4 /* Main.storyboard */,
@@ -91,6 +94,7 @@
 				6682952D1F94759300B7A1F4 /* LaunchScreen.storyboard */,
 				668295301F94759300B7A1F4 /* Info.plist */,
 				668295281F94759300B7A1F4 /* Scoville.xcdatamodeld */,
+				668295361F9476C200B7A1F4 /* GoogleService-Info.plist */,
 			);
 			path = Scoville;
 			sourceTree = "<group>";
@@ -101,8 +105,10 @@
 				66DA3D071F948490004E51FA /* LoginViewController.swift */,
 				66DA3D091F9484A6004E51FA /* RegisterViewController.swift */,
 				66168D8B1FA58E82007A7067 /* HomepageViewController.swift */,
-				66168D8D1FA59124007A7067 /* SetUpViewController.swift */,
 				66FC115A1FA68A50005EE960 /* CreateChildProfileViewController.swift */,
+				66423CCB1FE4B8B40039BF05 /* ChildProfileTableViewController.swift */,
+				66423CCD1FE4B8D10039BF05 /* TimerViewController.swift */,
+				66423CCF1FE4B8FB0039BF05 /* MapViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -254,10 +260,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				66DA3D081F948490004E51FA /* LoginViewController.swift in Sources */,
+				66423CCE1FE4B8D10039BF05 /* TimerViewController.swift in Sources */,
 				66FC115B1FA68A50005EE960 /* CreateChildProfileViewController.swift in Sources */,
+				66423CD01FE4B8FB0039BF05 /* MapViewController.swift in Sources */,
 				66DA3D0A1F9484A6004E51FA /* RegisterViewController.swift in Sources */,
-				66168D8E1FA59124007A7067 /* SetUpViewController.swift in Sources */,
 				66168D8C1FA58E82007A7067 /* HomepageViewController.swift in Sources */,
+				66423CCC1FE4B8B40039BF05 /* ChildProfileTableViewController.swift in Sources */,
 				668295241F94759300B7A1F4 /* ViewController.swift in Sources */,
 				668295221F94759300B7A1F4 /* AppDelegate.swift in Sources */,
 				6682952A1F94759300B7A1F4 /* Scoville.xcdatamodeld in Sources */,
